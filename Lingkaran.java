@@ -1,9 +1,19 @@
 public class Lingkaran {
-    public double phi = 3.14;
-    public double Keliling;
+    private double phi = 3.14;
+    private double Keliling;
+    private int jari ;
 
-    public void Hitunglingkaran(int jari2) {
-        Keliling = 2*phi*jari2;
-        System.out.println("Keliling Lingkaran " + jari2 + " Adalah " + Keliling);
+
+    public void Hitunglingkaran() {
+        this.Keliling = 2 * phi * jari;
+    }
+    public int getJari(){
+        return jari;
+    }
+    public void setjari(int jari){
+        this.jari = jari;
+    }
+    public double getKeliling(){
+        return Keliling;
     }
 }

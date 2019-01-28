@@ -1,8 +1,18 @@
 public class Bujursangkar {
-    private int Keliling;
+    private double keliling;
+    private  int sisi;
 
-    public void HitungBujursangkar(int sisi){
-        Keliling = 4*sisi;
-        System.out.println("Keliling Bujur Sangkar "+ sisi+" Adalah "+Keliling);
+    public void HitungBujursangkar() {
+        this.keliling = 4 * sisi;
     }
+    public int getSisi() {
+        return sisi;
+    }
+    public void setsisi(int sisi){
+        this.sisi = sisi;
+    }
+    public double getkeliling(){
+        return keliling;
+    }
+
 }
